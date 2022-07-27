@@ -1,7 +1,7 @@
 # ig-drugs
 
 
-
+For Now Locale Is Only Lithuanian
 
 
 
