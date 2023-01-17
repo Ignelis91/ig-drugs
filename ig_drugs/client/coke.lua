@@ -1,6 +1,7 @@
 local spawnedCocaLeaf = 0
 local CocaPlants = {}
 local isPickingUp, isProcessing = false, false
+ESX = exports['es_extended']:getSharedObject()
 
 
 Citizen.CreateThread(function()
