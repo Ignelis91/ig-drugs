@@ -16,7 +16,7 @@ local CurrentVehicle
 local pause = false
 local selection = 0
 local quality = 0
-ESX = nil
+ESX = exports['es_extended']:getSharedObject()
 
 local LastCar
 
