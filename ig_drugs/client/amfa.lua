@@ -30,13 +30,6 @@ Citizen.CreateThread(function()
 end)
 
 
-Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
-end)
-
 RegisterNetEvent('esx_methcar:stop')
 AddEventHandler('esx_methcar:stop', function()
 	started = false
