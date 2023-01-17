@@ -1,7 +1,7 @@
 local spawnedPoppys = 0
 local PoppyPlants = {}
 local isPickingUp, isProcessing = false, false
-
+ESX = exports['es_extended']:getSharedObject()
 
 Citizen.CreateThread(function()
 	while true do
