@@ -1,5 +1,6 @@
 local menuOpen = false
 local wasOpen = false
+ESX = exports['es_extended']:getSharedObject()
 
 Citizen.CreateThread(function()
 	while true do
