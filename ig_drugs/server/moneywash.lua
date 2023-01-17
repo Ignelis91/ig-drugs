@@ -1,3 +1,4 @@
+ESX = exports['es_extended']:getSharedObject()
 RegisterServerEvent('esx_illegal:Wash')
 AddEventHandler('esx_illegal:Wash', function()
 	local xPlayer = ESX.GetPlayerFromId(source)
